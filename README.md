@@ -28,7 +28,7 @@ First, create the element to work with. In this example, we are constrained to a
 	//   $('.smartfit').smartFit({innerWrapper: 'div'});
 
 
-	$('.ngActivityHeader’').smartFit({'maxFontPx' : 44});
+	$('.ngActivityHeader').smartFit({'maxFontPx' : 44});
 ```
 
 The element can be in the following forms:

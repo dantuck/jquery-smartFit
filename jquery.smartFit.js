@@ -1,3 +1,18 @@
+/*jshint eqnull:true */
+/**
+ * jQuery SmartFit Plugin v1.0.0
+ * https://github.com/dantuck/jquery-smartFit
+ *
+ * Developed at NewsGator® Technologies, Inc. (http://www.newsgator.com/)
+ *
+ * Copyright 2012, Daniel Tucker
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.opensource.org/licenses/GPL-2.0
+ *
+ * Enjoy!
+ */
+
 (function ($, window, undefined) {
     
     /* 

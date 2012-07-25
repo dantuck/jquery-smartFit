@@ -13,6 +13,33 @@ Live example:
 http://jsfiddle.net/MYSVL/438/
 
 First, create the element to work with. In this example, we are constrained to a 150px by 32px section of the page. We are going to work with 2 scenarios; one with just a div and the second with a div then span inside the div.
+```javascript
+	// Public: smartFit text within the element
+	//
+	// minFontPx : 14, // Smallest the font will get in px. default: 14
+	// maxFontPx : 16, // Largest the font will get in px. The font guessing will begin at this size. default: 16
+	// innerWrapper : 'span' // inner wrapping element type, ex. span or div.
+	//
+	// Returns: the jQuery elements 
+	//
+	// Examples
+	//
+	//   $('.smartfit').smartFit({maxFontPx: 44, minFontPx:12});
+	//   $('.smartfit').smartFit({innerWrapper: 'div'});
+
+
+	$(‘.ngActivityHeader’).smartFit({'maxFontPx' : 44});
+```
+
+The element can be in the following forms:
+
+```html
+	<div id=”myid”>the text</div>
+```
+- Or –
+```html
+<div id=”myid”><span>the text</span></div>
+```
 
 #### HTML
 

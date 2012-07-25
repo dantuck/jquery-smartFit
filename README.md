@@ -28,17 +28,17 @@ First, create the element to work with. In this example, we are constrained to a
 	//   $('.smartfit').smartFit({innerWrapper: 'div'});
 
 
-	$(‘.ngActivityHeader’).smartFit({'maxFontPx' : 44});
+	$('.ngActivityHeader’').smartFit({'maxFontPx' : 44});
 ```
 
 The element can be in the following forms:
 
 ```html
-	<div id=”myid”>the text</div>
+	<div id="myid">the text</div>
 ```
-- Or –
+OR
 ```html
-<div id=”myid”><span>the text</span></div>
+	<div id="myid"><span>the text</span></div>
 ```
 
 #### HTML
